@@ -1,1 +1,1 @@
-# wvss-BKI-Wer-Wird-Millionaer-Projektarbeit-Public
+Waiting for the last second is over
