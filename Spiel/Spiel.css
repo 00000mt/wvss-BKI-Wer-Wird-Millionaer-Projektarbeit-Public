@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.frage{
+    text-align: center;
+}
+.box {
+    border: 7px solid grey;
+    margin: auto; 
+    margin-top: 250px;
+    margin-bottom: 120px;
+    padding: 20px;
+    width: 50%; 
+    max-width: 600px; 
+    background-color: lightgray;
+}
+.progress-table {
+    float: right;
+    margin-top: 10px;
+    margin-right: 70px;
+    padding: 10px;
+}
+.progress-table table {
+    border-collapse: collapse;
+    width: 125px; 
+}
+.progress-table th, .progress-table td {
+    border: 1px solid darkgray;
+    padding: 2px; 
+    text-align: left;
+    height: 18px; 
+    font-size: 15px; 
+}
+.progress-table tr {
+    background-color: #fff;
+}
+.progress-table tr.active {
+    background-color: yellow;
+}
+.question {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.options {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+}
+input[type="radio"] {
+    display: none;
+}
+label {
+    display: block;
+    cursor: pointer;
+}
+input[type="radio"]+label {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+input[type="radio"]:checked+label {
+    background-color: yellow;
+}
+input[type="radio"]:checked+label.correct {
+    background-color: lightgreen;
+}
+input[type="radio"]:checked+label.incorrect {
+    background-color: lightcoral;
+}
+.button {
+    background-color: rgb(13, 38, 224);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.nextBtn {
+    background-color: rgb(4, 131, 4);
+}
+.nestr{
+    background-color: rgb(224, 66, 13);
+}
+
+.confirmation-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 1000;
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px){
+    .options {
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 10px;
+    }
+}
