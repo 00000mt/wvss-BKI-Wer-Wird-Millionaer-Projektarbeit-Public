@@ -1,0 +1,225 @@
+Frage 1 (50 Euro)
+Um Abgaben, die man an den Staat abführen muss, handelt es sich ...?
+
+A: dazu Geben
+
+B: mit Wirken
+
+C: unter Stützen
+
+D: bei Steuern (richtig)
+
+
+Frage 2 (100 Euro)
+Alle waren dem Anlass entsprechend festlich gekleidet – nur einer erschien mal wieder in einem unmöglichen ...?
+
+A: Aufzug (richtig)
+
+B: Fahrstuhl
+
+C: Lift
+
+D: Paternoster
+
+
+Frage 3 (200 Euro)
+Wird unmittelbar nach dem Anpfiff sogleich ein Treffer erzielt, handelt es sich sozusagen um ein ...?
+
+A: Inspekt-Tor
+
+B: Detekt-Tor
+
+C: Diktat-Tor
+
+D: Direkt-Tor (richtig)
+
+
+Frage 4 (300 Euro)
+Wer mit jemandem keinerlei Interessen oder Eigenschaften teilt, hat mit ihm nichts ...?
+
+A: ekelhaft
+
+B: gemein (richtig)
+
+C: fies
+
+D: widerlich
+
+ 
+Frage 5 (500 Euro)
+Begegnet die frühere Miss Middleton dem 43. US-Präsidenten, dann trifft ...?
+
+A: Bonnie Tyler
+
+B: Kim Wilde
+
+C: Annie Lennox
+
+D: Kate Bush (richtig)
+
+ 
+Frage 6 (1000 Euro)
+War die Maßnahme erfolgreich, dann ist die Technik durch ein ...?
+
+A: Back-up back to up
+
+B: Plug-in plug to in
+
+C: Update up to date (richtig)
+
+D: Download down to load
+
+ 
+Frage 7 (2000 Euro)
+Was macht man für gewöhnlich mit einem Petit Four?
+
+A: anziehen
+
+B: essen (richtig)
+
+C: fahren
+
+D: hören
+
+ 
+Frage 8 (4000 Euro)
+Stößt man auf das Kürzel „LotR“, ist in der Regel was das Thema?
+
+A: Fluch der Karibik
+
+B: Harry Potter
+
+C: Krieg der Sterne
+
+D: Der Herr der Ringe (richtig)
+
+ 
+Frage 9 (8000 Euro)
+Was zählt mit rund 80.000 Einwohnern zu den fünf größten Städten eines deutschen Bundeslandes?
+
+A: Neuchemnitz
+
+B: Neuaugsburg
+
+C: Neumünster (richtig)
+
+D: Neukassel
+
+ 
+Frage 10 (16.000 Euro)
+Welcher Megahit klingt mit einem markanten letzten Einsatz der Panflöte aus?
+
+A: Poker Face
+
+B: La Isla Bonita
+
+C: Whenever, Wherever (richtig)
+
+D: My Heart Will Go On
+
+ 
+Frage 11 (32.000 Euro)
+Als die Presse im Januar 2024 von „A23a“ berichtete – mit rund 4.000 km² etwas größer als Mallorca –, ging es um den größten existierenden ...?
+
+A: Meteoritenkrater
+
+B: Eisberg (richtig)
+
+C: Zwergplaneten
+
+D: lebenden Organismus
+
+ 
+Frage 12 (64.000 Euro)
+Wo sind Berufsbezeichnungen wie „best boy“, „swing gang“ und „key grip“ geläufig?
+
+A: an Filmsets (richtig)
+
+B: in Freizeitparks
+
+C: bei Raumfahrtbehörden
+
+D: in Sterneküchen
+
+ 
+Frage 13 (125.000 Euro)
+Wobei handelt es sich um ein sogenanntes Unterscheidungszeichen?
+
+A: PB für Paderborn (richtig)
+
+B: PK für Polizeikommissar
+
+C: Pt für Platin
+
+D: PS für Pferdestärke
+
+ 
+Frage 14 (500.000 Euro)
+Wo löste die Juristin Nataša Pirc Musar Ende 2022 den sogenannten Instagram-Präsidenten Borut Pahor als Staatsoberhaupt ab?
+
+A: Montenegro
+
+B: Bosnien und Herzegowina
+
+C: Kroatien
+
+D: Slowenien (richtig)
+
+ 
+Frage 15 (1 Million Euro)
+Die erste bezahlte Fracht, die im Jahr 1836 auf einer deutschen Eisenbahnlinie befördert wurde, bestand aus ...?
+
+A: einem Ballen Leder
+
+B: zwei Fässern Bier (richtig)
+
+C: drei Kisten Schrauben
+
+D: vier Sack Kartoffeln
+
+
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Um Abgaben, die man an den Staat abführen muss, handelt es sich ...?', 'dazu Geben', 'mit Wirken', 'unter Stützen', 'bei Steuern', 'D');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Alle waren dem Anlass entsprechend festlich gekleidet – nur einer erschien mal wieder in einem unmöglichen ...?', 'Aufzug', 'Fahrstuhl', 'Lift', 'Paternoster', 'A');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wird unmittelbar nach dem Anpfiff sogleich ein Treffer erzielt, handelt es sich sozusagen um ein ...?', 'Inspekt-Tor', 'Detekt-Tor', 'Diktat-Tor', 'Direkt-Tor', 'D');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wer mit jemandem keinerlei Interessen oder Eigenschaften teilt, hat mit ihm nichts ...?', 'ekelhaft', 'gemein', 'fies', 'widerlich', 'B');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Begegnet die frühere Miss Middleton dem 43. US-Präsidenten, dann trifft ...?', 'Bonnie Tyler', 'Kim Wilde', 'Annie Lennox', 'Kate Bush', 'D');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('War die Maßnahme erfolgreich, dann ist die Technik durch ein ...?', 'Back-up back to up', 'Plug-in plug to in', 'Update up to date', 'Download down to load', 'C');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Was macht man für gewöhnlich mit einem Petit Four?', 'anziehen', 'essen', 'fahren', 'hören', 'B');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Stößt man auf das Kürzel „LotR“, ist in der Regel was das Thema?', 'Fluch der Karibik', 'Harry Potter', 'Krieg der Sterne', 'Der Herr der Ringe', 'D');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Was zählt mit rund 80.000 Einwohnern zu den fünf größten Städten eines deutschen Bundeslandes?', 'Neuchemnitz', 'Neuaugsburg', 'Neumünster', 'Neukassel', 'C');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Welcher Megahit klingt mit einem markanten letzten Einsatz der Panflöte aus?', 'Poker Face', 'La Isla Bonita', 'Whenever, Wherever', 'My Heart Will Go On', 'C');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Als die Presse im Januar 2024 von „A23a“ berichtete – mit rund 4.000 km² etwas größer als Mallorca –, ging es um den größten existierenden ...?', 'Meteoritenkrater', 'Eisberg', 'Zwergplaneten', 'lebenden Organismus', 'B');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wo sind Berufsbezeichnungen wie „best boy“, „swing gang“ und „key grip“ geläufig?', 'an Filmsets', 'in Freizeitparks', 'bei Raumfahrtbehörden', 'in Sterneküchen', 'A');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wobei handelt es sich um ein sogenanntes Unterscheidungszeichen?', 'PB für Paderborn', 'PK für Polizeikommissar', 'Pt für Platin', 'PS für Pferdestärke', 'A');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wo löste die Juristin Nataša Pirc Musar Ende 2022 den sogenannten Instagram-Präsidenten Borut Pahor als Staatsoberhaupt ab?', 'Montenegro', 'Bosnien und Herzegowina', 'Kroatien', 'Slowenien', 'D');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Die erste bezahlte Fracht, die im Jahr 1836 auf einer deutschen Eisenbahnlinie befördert wurde, bestand aus ...?', 'einem Ballen Leder', 'zwei Fässern Bier', 'drei Kisten Schrauben', 'vier Sack Kartoffeln', 'B');

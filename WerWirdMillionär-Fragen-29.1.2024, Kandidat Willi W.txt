@@ -1,0 +1,209 @@
+Frage 1 (50 Euro)
+Neue Leute kennenlernen – oder auch: Kontakte ...?
+
+A: stricken
+
+B: klöppeln
+
+C: häkeln
+
+D: knüpfen (richtig)
+
+Frage 2 (100 Euro)
+Stellt sich mit der Zeit eine gewisse Gleichgültigkeit ein, dann ist es einem auf ...?
+
+A: Koch schinken
+
+B: Zwiebel mett
+
+C: Dauer wurst (richtig)
+
+D: Pökel fleisch
+
+Frage 3 (200 Euro)
+Wer statt „Verdammter Mist!“ „Vermisster Damt!“ ruft, hat sich sozusagen ...?
+
+A: sagenhaft
+
+B: verflucht (richtig)
+
+C: mordsmäßig
+
+D: kolossal
+
+Frage 4 (300 Euro)
+Wenn Hellenen auf Kreuzfahrt die Küste erspähen, dann sehen ...?
+
+A: Bul Garien
+
+B: Frank Reich
+
+C: Nor Wegen
+
+D: Griechen Land (richtig)
+
+Frage 5 (500 Euro)
+Ist er einem freundlich gesinnt, sagt der Kölner bei der Verabschiedung gerne: „Mach et ...“?
+
+A: chloor
+
+B: fluoor
+
+C: broom
+
+D: joot (richtig)
+
+Frage 6 (1000 Euro)
+Wie wird in Hessen der Apfelwein gern getrunken?
+
+A: gespritzt
+
+B: injiziert
+
+C: geimpft (richtig)
+
+D: immunisiert
+
+Frage 7 (2000 Euro)
+Deutschlands „Sportler des Jahres“ von 1997 und 2003 gab unlängst zu: „Ja, ich ...“?
+
+A: besitze keinen Führerschein
+
+B: bin eigentlich Schweizer
+
+C: habe gedopt (richtig)
+
+D: hasse den FC Bayern
+
+In einem aktuellen Kinofilm sieht man Tijan Njie als Rob Pilatus, Elan Ben Ali als Fab Morvan und Matthias Schweighöfer als ...?
+
+A: Dieter Bohlen
+
+B: Ralph Siegel (richtig)
+
+C: Frank Farian
+
+D: James Last
+
+Frage 9 (8000 Euro)
+Die Juristin Martina Rosenberg ist die erste Frau an der Spitze des ...?
+
+A: CRAZY
+
+B: MAD (richtig)
+
+C: LOONY
+
+D: SILLY
+
+Frage 10 (16.000 Euro)
+Heutzutage bestehen Bleistiftminen meistens aus welchem chemischen Element?
+
+A: Blei (richtig)
+
+B: Kohlenstoff
+
+C: Zink
+
+D: Zinn
+
+Frage 11 (32.000 Euro)
+Bis heute wird darüber spekuliert, ob der 1924 verschollene Brite George Mallory wessen Pionierleistung nicht doch zuerst vollbrachte?
+
+A: Edmund Hillary
+
+B: Neil Armstrong
+
+C: Charles Lindbergh
+
+D: Roald Amundsen
+
+Frage 12 (64.000 Euro)
+Welcher Staat hat annähernd die gleiche Einwohnerzahl wie Deutschland?
+
+A: Türkei (richtig)
+
+B: Kanada
+
+C: Japan
+
+D: Kenia
+
+Frage 13 (125.000 Euro)
+Was ist schon mal Gegenstand einer Profanierung?
+
+A: Kirche (richtig)
+
+B: Hauptbahnhof
+
+C: Grundschule
+
+D: Fünfsternehotel
+
+Frage 14 (500.000 Euro)
+Wessen bisher letztes reguläres Studioalbum mit neuem Material erschien 2014 und heißt „Kings & Queens of the Underground“?
+
+A: Kim Wilde
+
+B: Bonnie Tyler
+
+C: Boy George
+
+D: Billy Idol (richtig)
+
+Frage 15 (1 Million Euro)
+Wer konnte als erster Klub in der Geschichte der Fußballbundesliga den Meistertitel erfolgreich verteidigen?
+
+A: Bayern München
+
+B: 1. FC Köln
+
+C: Borussia Mönchengladbach (richtig)
+
+D: Hamburger SV
+
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Neue Leute kennenlernen – oder auch: Kontakte ...?', 'stricken', 'klöppeln', 'häkeln', 'knüpfen', 'D');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Stellt sich mit der Zeit eine gewisse Gleichgültigkeit ein, dann ist es einem auf ...?', 'Koch schinken', 'Zwiebel mett', 'Dauer wurst', 'Pökel fleisch', 'C');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wer statt „Verdammter Mist!“ „Vermisster Damt!“ ruft, hat sich sozusagen ...?', 'sagenhaft', 'verflucht', 'mordsmäßig', 'kolossal', 'B');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wenn Hellenen auf Kreuzfahrt die Küste erspähen, dann sehen ...?', 'Bul Garien', 'Frank Reich', 'Nor Wegen', 'Griechen Land', 'D');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Ist er einem freundlich gesinnt, sagt der Kölner bei der Verabschiedung gerne: „Mach et ...“?', 'chloor', 'fluoor', 'broom', 'joot', 'D');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wie wird in Hessen der Apfelwein gern getrunken?', 'gespritzt', 'injiziert', 'geimpft', 'immunisiert', 'C');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Deutschlands „Sportler des Jahres“ von 1997 und 2003 gab unlängst zu: „Ja, ich ...“?', 'besitze keinen Führerschein', 'bin eigentlich Schweizer', 'habe gedopt', 'hasse den FC Bayern', 'C');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('In einem aktuellen Kinofilm sieht man Tijan Njie als Rob Pilatus, Elan Ben Ali als Fab Morvan und Matthias Schweighöfer als ...?', 'Dieter Bohlen', 'Ralph Siegel', 'Frank Farian', 'James Last', 'B');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Die Juristin Martina Rosenberg ist die erste Frau an der Spitze des ...?', 'CRAZY', 'MAD', 'LOONY', 'SILLY', 'B');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Heutzutage bestehen Bleistiftminen meistens aus welchem chemischen Element?', 'Blei', 'Kohlenstoff', 'Zink', 'Zinn', 'A');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Bis heute wird darüber spekuliert, ob der 1924 verschollene Brite George Mallory wessen Pionierleistung nicht doch zuerst vollbrachte?', 'Edmund Hillary', 'Neil Armstrong', 'Charles Lindbergh', 'Roald Amundsen', 'B');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Welcher Staat hat annähernd die gleiche Einwohnerzahl wie Deutschland?', 'Türkei', 'Kanada', 'Japan', 'Kenia', 'A');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Was ist schon mal Gegenstand einer Profanierung?', 'Kirche', 'Hauptbahnhof', 'Grundschule', 'Fünfsternehotel', 'A');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wessen bisher letztes reguläres Studioalbum mit neuem Material erschien 2014 und heißt „Kings & Queens of the Underground“?', 'Kim Wilde', 'Bonnie Tyler', 'Boy George', 'Billy Idol', 'D');
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wer konnte als erster Klub in der Geschichte der Fußballbundesliga den Meistertitel erfolgreich verteidigen?', 'Bayern München', '1. FC Köln', 'Borussia Mönchengladbach', 'Hamburger SV', 'C');

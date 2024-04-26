@@ -1,0 +1,212 @@
+Frage 1 (50 Euro)
+Wenn man als Patient schon Tabletten nehmen muss, dann bitte welche ...?
+
+A: an Teilnahme
+
+B: bei Stand
+
+C: unter Stützung
+
+D: mit Wirkung (richtig)
+
+Frage 2 (100 Euro)
+Wer beim Sprechen plötzlich nicht mehr weiterweiß, verliert redensartlich den ...?
+
+A: Faden (richtig)
+
+B: Öden
+
+C: Schalen
+
+D: Tristen
+
+Frage 3 (200 Euro)
+Welche Nachricht sorgt bei Aktienbesitzern schon mal für schlechte Laune?
+
+A: Mahrder im Bad
+
+B: Dax im Keller (richtig)
+
+C: Wisel im Flur
+
+D: Fux in der Küche
+
+Frage 4 (300 Euro)
+Kostet bei der Kosmetikerin das Wimpernkleben noch mal extra, ist das sozusagen ...?
+
+A: eine Seh-Schwäche
+
+B: ein Blick-Kontakt
+
+C: eine Linsen-Trübung
+
+D: ein Augen-Aufschlag (richtig)
+
+Frage 5 (500 Euro)
+Zu welcher „Wirtschaft“ gibt es im allgemeinen Sprachgebrauch keinen gleichnamigen Wirt?
+
+A: Landwirtschaft
+
+B: Gastwirtschaft
+
+C: Betriebswirtschaft
+
+D: Vetternwirtschaft  (richtig)
+
+Frage 6 (1000 Euro)
+Wer die Porta Nigra in Trier bewacht, kann sich auch ohne fußballerisches Talent mit Fug und Recht wie bezeichnen?
+
+A: Torhüter  (richtig)
+
+B: Libero
+
+C: Spielmacher
+
+D: Mittelstürmer
+
+Frage 7 (2000 Euro)
+Was findet immer mehr Abnehmer?
+
+A: Heißluftwaschmaschinen
+
+B: Heißluftstaubsauger
+
+C: Heißluftfritteusen  (richtig)
+
+D: Heißluftzahnbürsten
+
+Frage 8 (4000 Euro)
+Mit welchem Begriff wird einer der zentralen Punkte von Charles Darwins Evolutionstheorie zusammengefasst?
+
+A: Selection of the Smartest
+
+B: Battle of the Strongest
+
+C: Survival of the Fittest  (richtig)
+
+D: Draft of the Biggest
+
+Frage 9 (8000 Euro)
+Bei welchen Karnevalskostümen muss man aufpassen, nicht mit § 42a des entsprechenden Gesetzes in Konflikt zu kommen?
+
+A: Prinzessin und Fee
+
+B: Sheriff und Pirat  (richtig)
+
+C: Hexe und Clown
+
+D: Micky und Minnie Maus
+
+Frage 10 (16.000 Euro)
+1984 folgte als bundesdeutsche First Lady ...?
+
+A: Wilhelmine auf Elly
+
+B: Mildred auf Hilda
+
+C: Marianne auf Veronica  (richtig)
+
+D: Christina auf Christiane
+
+Frage 11 (32.000 Euro)
+Was wird üblicherweise gebraut und nicht gebrannt?
+
+A: Whisky
+
+B: Tequila
+
+C: Sake (richtig)
+
+D: Ouzo
+
+Frage 12 (64.000 Euro)
+Wo gewann Lukas Dauser den Weltmeistertitel, der ausschlaggebend für seine Wahl zu Deutschlands „Sportler des Jahres 2023″ war?
+
+A: am Barren (richtig)
+
+B: auf dem Basketballfeld
+
+C: an der Tischtennisplatte
+
+D: auf der Biathlonstrecke
+
+
+Frage 13 (125.000 Euro)
+Eine normale Klarinette besteht in der Regel aus fünf Einzelteilen: Mundstück, Oberstück, Unterstück, Schallbecher und ...?
+
+A: Apfel
+
+B: Birne (richtig)
+
+C: Kirsche
+
+D: Banane
+
+Frage 14 (500.000 Euro)
+Welche Handwerker attestieren vielen ihrer Produkte eine sogenannte Ringfestigkeit?
+
+A: Tischler und Lackierer (richtig)
+
+B: Schneider und Schuhmacher
+
+C: Bäcker und Konditoren
+
+D: Maurer und Dachdecker
+
+Frage 15 (1 Million Euro)
+Welches Land änderte Ende 2023 das Motiv auf seiner Nationalflagge ab, weil die bisherige Version zu sehr an eine Sonnenblume erinnere?
+
+A: Chile
+
+B: Nigeria
+
+C: Bhutan
+
+D: Kirgisistan (richtig)
+
+
+SQL:
+
+CREATE TABLE questions (
+ question_id INT AUTO_INCREMENT PRIMARY KEY,
+ question_text VARCHAR(255) NOT NULL,
+ option_a VARCHAR(100) NOT NULL,
+ option_b VARCHAR(100) NOT NULL,
+ option_c VARCHAR(100) NOT NULL,
+ option_d VARCHAR(100) NOT NULL,
+ correct_option CHAR(1) NOT NULL
+);
+
+
+im questions SQL:
+
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wenn man als Patient schon Tabletten nehmen muss, dann bitte welche ...?', 'an Teilnahme ', 'bei Stand', 'unter Stützung', 'mit Wirkung', 'D');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wer beim Sprechen plötzlich nicht mehr weiterweiß, verliert redensartlich den ...?', 'Faden ', 'Öden', 'Schalen', 'Tristen', 'A');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Welche Nachricht sorgt bei Aktienbesitzern schon mal für schlechte Laune?', 'Mahrder im Bad', 'Dax im Keller', 'Wisel im Flur', 'Fux in der Küche', 'B');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Kostet bei der Kosmetikerin das Wimpernkleben noch mal extra, ist das sozusagen ...?', 'eine Seh-Schwäche', 'ein Blick-Kontakt', 'eine Linsen-Trübung', 'ein Augen-Aufschlag', 'D');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Zu welcher „Wirtschaft“ gibt es im allgemeinen Sprachgebrauch keinen gleichnamigen Wirt?', 'Landwirtschaft', 'Gastwirtschaft', 'Betriebswirtschaft', 'Vetternwirtschaft', 'D');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wer die Porta Nigra in Trier bewacht, kann sich auch ohne fußballerisches Talent mit Fug und Recht wie bezeichnen?', 'Torhüter', 'Libero', 'Spielmacher', 'Mittelstürmer', 'A');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Was findet immer mehr Abnehmer?', 'Heißluftwaschmaschinen', 'Heißluftstaubsauger', 'Heißluftfritteusen', 'Heißluftzahnbürsten', 'C');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Mit welchem Begriff wird einer der zentralen Punkte von Charles Darwins Evolutionstheorie zusammengefasst?', 'Selection of the Smartest', 'Battle of the Strongest', 'Survival of the Fittest', 'Draft of the Biggest', 'C');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Bei welchen Karnevalskostümen muss man aufpassen, nicht mit § 42a des entsprechenden Gesetzes in Konflikt zu kommen?', 'Prinzessin und Fee', 'Sheriff und Pirat', 'Hexe und Clown', 'Micky und Minnie Maus', 'B');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('1984 folgte als bundesdeutsche First Lady ...?', 'Wilhelmine auf Elly', 'Mildred auf Hilda', 'Marianne auf Veronica', 'Christina auf Christiane', 'C');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Was wird üblicherweise gebraut und nicht gebrannt?', 'Whisky', 'Tequila', 'Sake', 'Ouzo', 'C');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Wo gewann Lukas Dauser den Weltmeistertitel, der ausschlaggebend für seine Wahl zu Deutschlands „Sportler des Jahres 2023″ war?', 'am Barren', 'auf dem Basketballfeld', 'an der Tischtennisplatte', 'auf der Biathlonstrecke', 'A');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Eine normale Klarinette besteht in der Regel aus fünf Einzelteilen: Mundstück, Oberstück, Unterstück, Schallbecher und ...?', 'Apfel', 'Birne ', 'Kirsche', 'Banane', 'B');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Welche Handwerker attestieren vielen ihrer Produkte eine sogenannte Ringfestigkeit?', 'Tischler und Lackierer', 'Schneider und Schuhmacher', 'Bäcker und Konditoren', 'Maurer und Dachdecker', 'A');
+INSERT INTO questions (question_text, option_a, option_b, option_c, option_d, correct_option)
+VALUES ('Welches Land änderte Ende 2023 das Motiv auf seiner Nationalflagge ab, weil die bisherige Version zu sehr an eine Sonnenblume erinnere?', 'Chile', 'Nigeria', 'Bhutan', 'Kirgisistan', 'D');

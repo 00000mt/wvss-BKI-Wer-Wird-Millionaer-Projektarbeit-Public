@@ -1,0 +1,138 @@
+body {
+  background: linear-gradient(120deg, #3498db, #8e44ad);
+  background-image: url('CustemHindergruende/cooler_hintergrund.jpg');
+  background-size: cover; 
+  margin: 0;
+}
+
+h1 { 
+  color: white; 
+  text-align: center;
+  font-size: 100px;
+  font-family: 'Impact', sans-serif; /* Schriftart Impact */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Schatten für den Text */
+}
+
+.top-buttons {
+  text-align: right;
+  margin-top: 20px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.buttons a {
+  display: inline-block;
+  padding: 20px 40px; /* Angepasste Größe für die Buttons */
+  border-radius: 50px;
+  font-size: 24px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.signin-button,
+.register-button {
+  padding: 15px 30px; /* Angepasste Größe für die Buttons */
+  border-radius: 30px; /* Reduzierte Border-Radius */
+  font-size: 18px; /* Reduzierte Schriftgröße */
+  margin: 20px 10px; /* Anpassung des oberen und unteren Abstands */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.signin-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.register-button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+}
+
+.container {
+  text-align: center; /* Zentriert die Buttons */
+  padding-top: 50px; /* Abstand von der Überschrift */
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.oval-button {
+  width: 450px; /* Breite der Buttons */
+  height: 100px; /* Höhe der Buttons */
+  display: flex; /* Verwenden der Flexbox */
+  justify-content: center; /* Text horizontal zentrieren */
+  align-items: center; /* Text vertikal zentrieren */
+  padding: 20px; /* Innenabstand des Buttons */
+  margin: 20px; /* Abstand zwischen den Buttons */
+  border-radius: 50px;
+  font-size: 30px; /* Schriftgröße der Buttons */
+  border: 2px solid black;
+  background-color: #ADD8E6;
+  color: black;
+  text-decoration: none;
+  transition: transform 0.3s ease; /* Animationseffekt */
+}
+
+
+
+.oval-button:hover {
+  transform: scale(1.1); /* Vergrößert den Button beim Hovern */
+}
+
+.rank-list {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  transform: translateY(-50%);
+  max-width: 600px;
+}
+
+.rangliste {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rangliste th, .rangliste td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.rangliste th {
+  background-color: #f2f2f2;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-buttons {
+    position: static;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .top-buttons a {
+    margin: 0 10px;
+  }
+
+  .container {
+    height: auto; /* Automatische Höhe */
+  }
+
+  .oval-button {
+    width: 250px; /* Breite der Buttons anpassen */
+    padding: 20px; /* Innenabstand des Buttons anpassen */
+    font-size: 24px; /* Schriftgröße der Buttons anpassen */
+  }
+}

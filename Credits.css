@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px; 
+    background-image: url('CustemHindergruende/Backround1.jpg');
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333; 
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    margin: 5px 0;
+}
